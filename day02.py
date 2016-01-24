@@ -8,5 +8,5 @@ for line in lines:
     surface += 2*L*W + 2*L*H + 2*W*H + extra
     maxdim = max(L, max(W, H))
     ribbon += L*W*H + 2 * (L+W+H - maxdim)
-print("The total square feet of wrapping paper they should order:", surface)
-print("The total feet of ribbon they should order:", ribbon)
+print("Day 02: Answer Part 1:", surface)
+print("Day 02: Answer Part 2:", ribbon)

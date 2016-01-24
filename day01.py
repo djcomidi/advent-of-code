@@ -1,7 +1,8 @@
 with open('day01.txt') as f:
     data = f.read()
+
 level = data.count('(') - data.count(')')
-print("The instructions take Santa to floor:", level)
+print("Day 01: Answer Part 1:", level)
 
 level, pos = 0, 0
 for c in data:
@@ -12,5 +13,4 @@ for c in data:
         level -= 1
     if level == -1:
         break
-print("The position of the character that causes Santa to first enter the basement:", pos)
-
+print("Day 01: Answer Part 2:", pos)

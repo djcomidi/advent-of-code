@@ -13,7 +13,7 @@ for dir in data:
     elif dir == '>':
         px += 1
     houses.add((px, py))
-print("Answer Part 1:", len(houses))
+print("Day 03: Answer Part 1:", len(houses))
 
 santas, robos = {(0, 0)}, {(0, 0)}
 sx, sy, rx, ry = 0, 0, 0, 0
@@ -38,4 +38,4 @@ for i, dir in enumerate(data):
         elif dir == '>':
             rx += 1
         robos.add((rx, ry))
-print("Answer Part 2:", len(santas | robos))
+print("Day 03: Answer Part 2:", len(santas | robos))
