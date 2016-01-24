@@ -1,4 +1,4 @@
-with open('day01.data') as f:
+with open('day01.txt') as f:
     data = f.read()
 level = data.count('(') - data.count(')')
 print("The instructions take Santa to floor:", level)
