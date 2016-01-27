@@ -1,0 +1,16 @@
+w,Dagger,8,4,0
+w,Shortsword,10,5,0
+w,Warhammer,25,6,0
+w,Longsword,40,7,0
+w,Greataxe,74,8,0
+a,Leather,13,0,1
+a,Chainmail,31,0,2
+a,Splintmail,53,0,3
+a,Bandedmail,75,0,4
+a,Platemail,102,0,5
+r,Damage +1,25,1,0
+r,Damage +2,50,2,0
+r,Damage +3,100,3,0
+r,Defense +1,20,0,1
+r,Defense +2,40,0,2
+r,Defense +3,80,0,3
