@@ -2,7 +2,6 @@ from itertools import product, permutations, filterfalse
 from functools import reduce
 from operator import mul
 
-# SOLUTION PART 1 = len:6 qe:10723906903
 INF = 10**10
 
 
